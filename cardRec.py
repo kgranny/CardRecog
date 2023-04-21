@@ -4,13 +4,10 @@
 Python code to recognize playing cards in players and 
 dealers hands using webcam.
 
-ENSC482
--Summer 2021
-
-By: Kyle Granville, Mohit Sharma, Michael Celio
+By: Kyle Granville
 
 note:
--code should recognize cards, need to find a better way to append
+-code recognizes cards, need to find a better way to append
   to a list for the dealer's and player's cards
 
 v_8-14-2022
@@ -155,7 +152,7 @@ def getAllCards():
     cardRanks = ['a','2','3','4','5','6','7','8','9','10','j','q','k']
     im_name = [()]
     print(" - getting cards dataset - ")
-    a=glob.glob(path + "\\")
+    a=glob.glob(path + "\\images\\")
     
     ranks=[]
     for i in cardRanks:
