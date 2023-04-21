@@ -8,5 +8,5 @@ CardRec.py:
   
 DeckSaver.py:
   - use to upload custom deck of cards, optional
-  
+  - can adjust individual files if necessary
   
