@@ -17,6 +17,7 @@ Requires pip libraries:
 CardRec.py:
   - main file to run, requires images of basic deck of cards to work
   - code uses number in corner to identify card
+  - will open window showing webcam view, cards being recognized will be highlighted on screen
   
   
 DeckSaver.py:
