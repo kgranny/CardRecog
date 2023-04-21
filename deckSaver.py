@@ -1,18 +1,10 @@
 """
 
-Python code to recognize playing cards in players and 
-dealers hands using webcam.
+Python code to upload playing cards, follow prompts on screen, type 'q' to exit
 
-    -ENSC482
     -Summer 2021
 
-By: Kyle Granville, Mohit Sharma, Michael Celio
-
-todo:
--code should recognize cards, still need to find a way to append
-  to a list for the dealer's and player's cards
-
-
+By: Kyle Granville
 
 
 """
@@ -153,7 +145,7 @@ def process(frame):
 
                 cv2.imshow("current image",idek)
                 print('just type  "q"  to retake image using next frame')
-                cname = input("input card suit + value (eg. 4 of hearts = h4):  ")
+                cname = input("input card suit + value (eg. 4 of hearts = h4, Ace of diamonds = da):  ")
                 if cname == "q":
                     pass
                 else:
