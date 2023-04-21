@@ -157,7 +157,7 @@ def process(frame):
                 if cname == "q":
                     pass
                 else:
-                    cv2.imwrite(cname + ".jpg",idek)
+                    cv2.imwrite("\\images\\" + cname + ".jpg",idek)
                 
                 #cv2.putText(image, prediction, (int(x - w / 2), int(y)), cv2.FONT_HERSHEY_SIMPLEX, .75, 255, 3)
                 #cv2.putText(image, str(f'{percentage * 100:.2f}' + '%'), (int(x - w / 2), int(y + 20)),cv2.FONT_HERSHEY_SIMPLEX, .50, 255, 2)
